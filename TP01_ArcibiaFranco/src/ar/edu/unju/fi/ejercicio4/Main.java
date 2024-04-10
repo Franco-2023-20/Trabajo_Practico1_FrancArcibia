@@ -9,13 +9,13 @@ public class Main {
 		Scanner scanner = new Scanner(System.in);
 		
 		long factorial = 1;
-		System.out.println("Ingrese numero :");
+		System.out.println("Ingrese numero entre el 0 y 10 :");
 		
 		
 		if(scanner.hasNextInt()) {
 			int num = scanner.nextInt();
 			if(num<0 || num >10) {
-				System.out.println("Solo calcula con numeros del 0 al 10 !");
+				System.out.println("Solo calcula con numeros del 0 al 10 .");
 			}
 			else {
 				while(num!=0) {
