@@ -53,7 +53,7 @@ public void setFechadeN(Calendar fechadeN) {
      
       }
 
-      return signosZ[aux-1];// If the date doesn't fall within any zodiac sign range, return "None".
+      return signosZ[aux-1];
 
   }
   public String estacion (int dia , int mes) {
