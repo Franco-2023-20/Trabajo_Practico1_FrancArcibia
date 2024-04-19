@@ -12,7 +12,7 @@ public class Main {
 
 			}
 			
-			System.out.print(j);
+			System.out.print("\n El valor de j llego a :"+j);
 			}
 
 }
